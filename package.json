@@ -1,0 +1,25 @@
+{
+  "name": "qmb-system-instruction-batery-remote",
+  "version": "1.0.0",
+  "description": "System instruction of Batery remote",
+  "main": "battery_remote.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/modulesQuimera/qmb-system-instruction-batery-remote.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/modulesQuimera/qmb-system-instruction-batery-remote/issues"
+  },
+  "homepage": "https://github.com/modulesQuimera/qmb-system-instruction-batery-remote#readme",
+  "node-red" : {
+    "nodes": {
+        "battery_remote": "battery_remote.js"
+    }
+  }
+}
