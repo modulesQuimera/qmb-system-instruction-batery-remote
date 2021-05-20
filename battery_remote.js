@@ -17,10 +17,10 @@ module.exports = function(RED) {
                 action: "battery_remote",
                 payload: {
                     attributes: [
-                        { pulse_interval:  parseInt(node.pulse_interval) },
-                        { pulses:  parseInt(node.pulses) },
-                        { pulse_length:  parseInt(node.pulse_length) },
-                        { time_meter:  parseInt(node.time_meter) },
+                        { name: "pulse_interval", value: parseInt(node.pulse_interval) },
+                        { name: "pulses", value: parseInt(node.pulses) },
+                        { name: "pulse_length", value: parseInt(node.pulse_length) },
+                        { name: "time_meter", value:  parseInt(node.time_meter) },
 
                     ],
                 }
